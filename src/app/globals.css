@@ -13,6 +13,7 @@
     --foreground: #ededed;
   }
 }
+
 * {
   height: 100%;
   width: 100%;
@@ -28,7 +29,7 @@ div {
   border: 1px solid white;
 }
 
-.container {
+.main_container {
   display: grid;
   grid-template-columns: 0.3fr 1.7fr;
   grid-template-rows: 0.2fr 2.7fr 0.1fr;
@@ -40,22 +41,22 @@ div {
     ". footer";
 }
 
-.nav {
+.main_nav {
   grid-area: nav;
 }
 
-.header {
+.main_header {
   grid-area: header;
 }
 
-.footer {
+.main_footer {
   grid-area: footer;
 }
 
-.main {
+.main_content {
   grid-area: main;
 }
 
-.logo {
+.main_logo {
   grid-area: logo;
 }
